@@ -30,3 +30,6 @@ If you configure the PIO to output data continuously:
 With proper configuration (DMA feeding the PIO and minimal stalling):
     •    Theoretical Max Frequency: 150 MHz.
     •    Realistic Frequency: 140–150 MHz, accounting for minor overhead.
+
+** These specifications are being collected from the Data Sheet, Online Resources and Industry Experts.
+They will be refined over time so ensure accuracy, some speeds are hard to pin down and need to be confirmed.
