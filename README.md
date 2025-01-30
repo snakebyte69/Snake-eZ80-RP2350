@@ -4,7 +4,7 @@
 ## Finalising design at this stage ##
 ### Constructive criticism welcome ###
 
-### Build Stage ###
+## Build Stage ##
 - Initial design - done
 - Mainboard design - commenced
 - Simple Firmware and BIOS design - commenced
