@@ -53,20 +53,20 @@ Audio System (Audio RP2350 - PicoGUS Integration):
 	- The audio RP2350 controls the WAIT pin on the eZ80 for bus synchronization
 
 Connectivity & I/O:
-- GPIO Configuration:
-- eZ80 has GPIO for its 24-bit bus
-- RP2350s have separate, isolated GPIOs
+- eZ80 has a 24-bit bus - connected to System RAM and the RP2350 BUS
+- RP2350s have separate, isolated GPIO that will be used for the 24/16-bit Multiplexed BUS
 - External device support without conflicts
 - Expansion Headers:
 - 144-pin header exposing all eZ80 microcontroller pins
+- 40-pin header exposing all RP2350 pins
 - Additional expansion header for I2C/SPI peripherals
 - Communication Interfaces:
-- Ethernet
-- USB-UART for debugging
+	- Ethernet
+	- USB-UART for debugging
 - Jumper/Switch Configuration:
-- Bootloader/flash support for RP2350
+	- Bootloader/flash support for RP2350
+	- Jumper to disconnect DAC audio from the 3.5mm jack
 - DIP switches for bank switching, MIDI routing, audio output selection
-- Jumper to disconnect DAC audio from the 3.5mm jack
 
 Power & Protection Features:
 - Voltage Rails:
@@ -94,8 +94,6 @@ Design Priorities:
 - ✅ Noise Minimization: Audio and video circuits are placed far from noise sources
 - ✅ High-Quality Components: Best bus transceivers, high-quality power switch, and effective shielding
 - ✅ Future Expansion: GPIO headers, diagnostic ports, and configuration jumpers enable flexibility
-
-This is your full system summary based on everything you’ve shared. Let me know if you need modifications or additional details! 🚀
 
 # RP2350 Specifications #
 
