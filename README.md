@@ -6,11 +6,12 @@ New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2)
 
 ### Build Stage ###
 - Initial design - done
-- RP2350 Pico2 x 2 Test Board build process - commenced
 - Mainboard design - commenced
 - Simple Firmware and BIOS design - commenced
 - WozMon for Z80 - Done
 - Specifications submitted to experts - done
+- RP2350 Video cluster capability - pending
+	- RP2350 Pico2 x 2 Test Board build process - commenced
 
 Summary of Design so far
 
