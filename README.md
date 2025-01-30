@@ -29,7 +29,7 @@ Graphics & Video (Video RP2350):
 Audio System (Audio RP2350 - PicoGUS Integration):
 -	Audio Processing: Second RP2350 running PicoGUS
 -	Audio Outputs:
-  -	HDMI Audio Output
+	- HDMI Audio Output
   -	3.5mm Line-Level Audio Jack (with an optional headphone amplifier IC like TPA6132A2)
   -	2x RCA Line-Level Outputs
 -	Audio Inputs:
@@ -86,6 +86,8 @@ Design Priorities:
 - ✅ Noise Minimization: Audio and video circuits are placed far from noise sources
 - ✅ High-Quality Components: Best bus transceivers, high-quality power switch, and effective shielding
 - ✅ Future Expansion: GPIO headers, diagnostic ports, and configuration jumpers enable flexibility
+
+This is your full system summary based on everything you’ve shared. Let me know if you need modifications or additional details! 🚀
 
 # RP2350 Specifications #
 
