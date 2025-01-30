@@ -30,19 +30,19 @@ Audio System (Audio RP2350 - PicoGUS Integration):
 -	Audio Processing: Second RP2350 running PicoGUS
 -	Audio Outputs:
 	- HDMI Audio Output
-  -	3.5mm Line-Level Audio Jack (with an optional headphone amplifier IC like TPA6132A2)
-  -	2x RCA Line-Level Outputs
+	- 3.5mm Line-Level Audio Jack (with an optional headphone amplifier IC like TPA6132A2)
+  	- 2x RCA Line-Level Outputs
 -	Audio Inputs:
-  -	2x RCA Line-Level Inputs
-  -	Line-Level 3.5mm Input
+	- 2x RCA Line-Level Inputs
+	- Line-Level 3.5mm Input
 -	MIDI Support:
-  -	MIDI IN
-  -	MIDI OUT/MIDI THRU
-  -	Additional MIDI port for a third MIDI interface
-  -	MIDI over USB
+	- MIDI IN
+	- MIDI OUT/MIDI THRU
+	- Additional MIDI port for a third MIDI interface
+	- MIDI over USB
 -	Bus Access:
-  -	The audio RP2350 reads from and writes to the 16Mb system RAM
-  -	The audio RP2350 controls the WAIT pin on the eZ80 for bus synchronization
+	- The audio RP2350 reads from and writes to the 16Mb system RAM
+	- The audio RP2350 controls the WAIT pin on the eZ80 for bus synchronization
 
 Connectivity & I/O:
 -	GPIO Configuration:
