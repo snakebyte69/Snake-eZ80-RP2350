@@ -4,9 +4,9 @@ New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2)
 Finalising design at this stage
 Constructive criticism welcome
 
-RP2350 Specifications
+# RP2350 Specifications #
 
-# Key Features of PIO for Parallel Bus: #
+## Key Features of PIO for Parallel Bus: ##
     1.    Clock Speed: The PIO can run up to the system clock frequency (150 MHz for RP2350), depending on your configuration.
     2.    Parallel Operation: The PIO can output data to multiple pins simultaneously, making it ideal for driving a 16-bit parallel bus.
     3.    Instruction Execution: Each PIO instruction takes 1 clock cycle.
