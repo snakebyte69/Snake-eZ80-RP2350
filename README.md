@@ -4,7 +4,7 @@ New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2)
 ## Finalising design at this stage ##
 ## Constructive criticism welcome ##
 
-### Building Stage ###
+### Build Stage ###
 - Initial design - done
 - RP2350 Pico2 x 2 Test Board build process - commenced
 - Mainboard design - commenced
