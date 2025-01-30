@@ -10,6 +10,7 @@ New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2)
 - Mainboard design - commenced
 - Simple Firmware and BIOS design - commenced
 - WozMon for Z80 - Done
+- Specifications submitted to experts - done
 
 Summary of Design so far
 
