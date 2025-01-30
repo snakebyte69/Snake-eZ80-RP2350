@@ -7,8 +7,8 @@ New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2)
 Summary of Design so far
 
 Core Components:
-	•	CPU: Zilog eZ80F91AZ050EK microcontroller
-	•	Coprocessors: Four RP2350 microcontrollers - 3 for Video, 1 for Audio; 65C816 option
+	•	- CPU: Zilog eZ80F91AZ050EK microcontroller
+	•	- Coprocessors: Four RP2350 microcontrollers - 3 for Video, 1 for Audio; 65C816 option
 	•	Memory:	16Mb (2MB) SRAM for system memory, 8Mb VRAM
 	•	RP2350’s internal 8Mb (1MB) PSRAM used as VRAM or shared 8Mb SRAM on board
 	•	Storage: SD card with write-protect switch and card-detect pin
