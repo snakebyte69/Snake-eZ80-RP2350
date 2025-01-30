@@ -31,8 +31,8 @@ Core Components:
 Graphics & Video (Video RP2350):
 -	HDMI Output: Driven by an RP2350 using PicoDVI software
 -	VRAM Handling:
--	The last RP2350 (Video) only reads from the 8Mb PSRAM (VRAM) - No write access to VRAM
--	Video Synchronization: RP2350 (Video) controls the WAIT pin for bus arbitration
+	- The last RP2350 (Video) only reads from the 8Mb PSRAM (VRAM) - No write access to VRAM
+	- Video Synchronization: RP2350 (Video) controls the WAIT pin for bus arbitration
 
 Audio System (Audio RP2350 - PicoGUS Integration):
 -	Audio Processing: Second RP2350 running PicoGUS
