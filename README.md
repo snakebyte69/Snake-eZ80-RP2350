@@ -7,18 +7,18 @@ New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2)
 Summary of Design so far
 
 Core Components:
-	•	- CPU: Zilog eZ80F91AZ050EK microcontroller
-	•	- Coprocessors: Four RP2350 microcontrollers - 3 for Video, 1 for Audio; 65C816 option
-	•	Memory:	16Mb (2MB) SRAM for system memory, 8Mb VRAM
-	•	RP2350’s internal 8Mb (1MB) PSRAM used as VRAM or shared 8Mb SRAM on board
-	•	Storage: SD card with write-protect switch and card-detect pin
-	•	Clock Speed: Configurable with 5 jumpers for 50 MHz, 25 MHz, 12.5 MHz, 6.25 MHz, 3.12 MHz
-	•	Bus: eZ80 24-bit/16-bit multiplexed connected to the bus of theRP2350s
-	•	Bank switching alternates between 16Mb system RAM and RP2350’s internal 8Mb PSRAM (VRAM)
-	•	Bus transceivers for optimal performance and minimal parasitics
-	•	Power Supply: ATX Standard - External 9V DC (preferred) or 12V DC adapter with a high-quality switch
-	•	Diagnostic & Debugging: UART/SWD diagnostic ports, USB-UART converter
-	•	Clock Control: The video RP2350 controls the WAIT pin on the eZ80 and the audio RP2350. The audio RP2350 can also control the WAIT pin on the eZ80.
+- CPU: Zilog eZ80F91AZ050EK microcontroller
+- Coprocessors: Four RP2350 microcontrollers - 3 for Video, 1 for Audio; 65C816 option
+- Memory:	16Mb (2MB) SRAM for system memory, 8Mb VRAM
+- RP2350’s internal 8Mb (1MB) PSRAM used as VRAM or shared 8Mb SRAM on board
+- Storage: SD card with write-protect switch and card-detect pin
+- Clock Speed: Configurable with 5 jumpers for 50 MHz, 25 MHz, 12.5 MHz, 6.25 MHz, 3.12 MHz
+- Bus: eZ80 24-bit/16-bit multiplexed connected to the bus of theRP2350s
+- Bank switching alternates between 16Mb system RAM and RP2350’s internal 8Mb PSRAM (VRAM)
+- Bus transceivers for optimal performance and minimal parasitics
+- Power Supply: ATX Standard - External 9V DC (preferred) or 12V DC adapter with a high-quality switch
+- Diagnostic & Debugging: UART/SWD diagnostic ports, USB-UART converter
+- Clock Control: The video RP2350 controls the WAIT pin on the eZ80 and the audio RP2350. The audio RP2350 can also control the WAIT pin on the eZ80.
 
 Graphics & Video (Video RP2350):
 	•	HDMI Output: Driven by an RP2350 using PicoDVI software
