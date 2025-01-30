@@ -7,18 +7,18 @@ New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2)
 Summary of Design so far
 
 Core Components:
+- Micro ATX design with slots
 - CPU: Zilog eZ80F91AZ050EK microcontroller
 - Coprocessors
-	- RP2350 x 3 - Video
+	- RP2350 Pico2 x 3 - Video (Sockets on Plugin Board)
 		- Sprite Engine
 		- Double Buffer
 		- Video Out - PicoDVI
-	- RP2350 - PicoGUS
-	- 65C816 CoProcessor option (Socket on Board)
+	- RP2350 Pico 2 - PicoGUS (Socket on Plugin Board)
+	- 65C816 CoProcessor option (Socket on Main Board)
 - Memory
 	- 16Mb (2MB) SRAM - System Memory
-	- 8Mb VRAM - 8Mb SRAM onboard or Pico2 with 8Mb on board each 
-- RP2350’s internal 8Mb (1MB) PSRAM used as VRAM or shared 8Mb SRAM on board
+	- 8Mb VRAM - 8Mb SRAM onboard or RP2350 (Pico2) with 8Mb on board each 
 - Storage: SD card with write-protect switch and card-detect pin
 - Clock Speed: Configurable with 5 jumpers for 50 MHz, 25 MHz, 12.5 MHz, 6.25 MHz, 3.12 MHz
 - Bus: eZ80 24-bit/16-bit multiplexed connected to the bus of theRP2350s
