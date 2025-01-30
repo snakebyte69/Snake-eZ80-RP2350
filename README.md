@@ -26,7 +26,7 @@ Core Components:
 	- 65C816 CoProcessor option (Socket on Main Board)
 - Memory
 	- 16Mb (2MB) SRAM - System Memory
-	- 8Mb VRAM - 8Mb SRAM onboard or RP2350 (Pico2) with 8Mb on board each 
+	- 8Mb VRAM - 8Mb SRAM onboard (final output) and RP2350 (Pico2) with 8Mb on board each 
 - Storage: SD card with write-protect switch and card-detect pin
 - Clock Speed: Configurable with 5 jumpers for 50 MHz, 25 MHz, 12.5 MHz, 6.25 MHz, 3.12 MHz
 - Bus: eZ80 24-bit/16-bit multiplexed connected to the bus of theRP2350s
