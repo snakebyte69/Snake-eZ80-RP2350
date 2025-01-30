@@ -13,8 +13,7 @@ New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2)
 - RP2350 Video cluster capability - pending
 	- RP2350 Pico2 x 2 Test Board build process - commenced
 
-Summary of Design so far
-
+## Summary of Design so far ## 
 Core Components:
 - Micro ATX design with slots
 - CPU: Zilog eZ80F91AZ050EK microcontroller
