@@ -15,7 +15,9 @@ Core Components:
 		- Video Out - PicoDVI
 	- RP2350 - PicoGUS
 	- 65C816 CoProcessor option (Socket on Board)
-- Memory:	16Mb (2MB) SRAM for system memory, 8Mb VRAM
+- Memory
+	- 16Mb (2MB) SRAM - System Memory
+	- 8Mb VRAM - 8Mb SRAM onboard or Pico2 with 8Mb on board each 
 - RP2350’s internal 8Mb (1MB) PSRAM used as VRAM or shared 8Mb SRAM on board
 - Storage: SD card with write-protect switch and card-detect pin
 - Clock Speed: Configurable with 5 jumpers for 50 MHz, 25 MHz, 12.5 MHz, 6.25 MHz, 3.12 MHz
