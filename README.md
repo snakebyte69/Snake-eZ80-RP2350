@@ -131,4 +131,5 @@ With proper configuration (DMA feeding the PIO and minimal stalling):
     - Realistic Frequency: 140–150 MHz, accounting for minor overhead.
 
 ** These specifications are being collected from the Data Sheet, Online Resources and Industry Experts.
-They will be refined over time so ensure accuracy, some speeds are hard to pin down and need to be confirmed.
+- They will be refined over time so ensure accuracy, some speeds are hard to pin down and need to be confirmed.
+- VRAM may be 8Mb onboard with each Pico2 or shared SRAM on the mainboard
