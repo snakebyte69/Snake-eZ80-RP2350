@@ -13,7 +13,8 @@
 - WozMon for Z80 - Done
 - Specifications submitted to experts - done
 - RP2350 Video cluster capability - pending
-	- RP2350 Pico2 x 2 Test Board build process - commenced
+	- RP2350 Pico2 x 2 Test Board design process - commenced
+	- First draft kicad files done
 
 ## Summary of Design so far ## 
 Core Components:
