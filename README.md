@@ -2,7 +2,9 @@
 ### New Retro Design utilising eZ80, 65C816 and RP2350 (Pico2) ###
 
 ## Finalising design at this stage ##
+### Just a concept at this stage which may or may not work I'm NOT an expert ###
 ### Constructive criticism welcome ###
+
 
 ## Build Stage ##
 - Initial design - done
